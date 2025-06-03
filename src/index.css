@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  background: #e3e6e6;
+}
+.w-2xs {
+  width: 600px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #131921;
+}
+.bg-black {
+  background-color: #131921;
+}
+
+::placeholder {
+  color: gray;
+}
+
+span {
+  margin-left: 20px;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
+}
