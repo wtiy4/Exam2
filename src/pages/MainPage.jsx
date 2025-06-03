@@ -26,7 +26,7 @@ function MainPage() {
             <span>{item.price}$</span>
             {/* <p className="">{item.description}</p> */}
             <br /> <br />
-            <Link to={"/products"}>
+            <Link to={`/products/${item.id}`}>
               <div className="hover:text-blue-600 cursor-pointer">
                 More details
               </div>
